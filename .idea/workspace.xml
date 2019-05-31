@@ -81,6 +81,11 @@
               <item name="MqttDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MqttDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MqttDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MqttDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -140,12 +145,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559271961019</updated>
-      <workItem from="1559271966482" duration="2087000" />
+      <workItem from="1559271966482" duration="2176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2087000" />
+    <option name="totallyTimeSpent" value="2176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1920" height="745" extended-state="0" />
@@ -156,13 +161,13 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17625134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17625134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32924962" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32924962" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32924962" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
