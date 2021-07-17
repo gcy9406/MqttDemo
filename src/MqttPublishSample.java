@@ -8,18 +8,15 @@ public class MqttPublishSample {
         String topic        = "------序列号-----";
         String CONTROL_MARK = "ctr";
         String RECV_MARK    = "state";
-        String content      = "setr=2222222222";
+        String content      = "----命令-------如：setr=2222222222";
         int qos             = 0;
-        String broker       = "tcp://----服务器密码----:1883";
-        String username     = "----您的用户----";
-        String password     = "----您的密码----";
+        String broker       = "tcp://api.netrelay.cn:1883";
+        String appsecret     = "----appsecret----";
         MemoryPersistence persistence = new MemoryPersistence();
 
         try {
-            MqttClient sampleClient = new MqttClient(broker, username, persistence);
+            MqttClient sampleClient = new MqttClient(broker, appsecret, persistence);
             MqttConnectOptions connOpts = new MqttConnectOptions();
-            connOpts.setUserName(username);
-            connOpts.setPassword(password.toCharArray());
             connOpts.setCleanSession(true);
             sampleClient.connect(connOpts);
             MqttMessage message = new MqttMessage(content.getBytes());
@@ -39,6 +36,8 @@ public class MqttPublishSample {
                 public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
                     System.out.println("Topic: " + s);
                     System.out.println(" Message: " + mqttMessage.toString());
+
+                    //断开连接根据实际决定是否需要
                     sampleClient.disconnect();
                 }
 
